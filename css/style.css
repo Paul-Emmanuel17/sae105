@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+   /* background-color: black#2A2A2A;*/
+   background-image: url(../img/fond42.jpg);
+   /*background-repeat: no-repeat;*/
+   background-size: 100%;
+
+}
+
+audio {
+    display: none;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: Audiowide, serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.liste-musiques{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+
+.liste-musiques > div, .newMusique{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    margin-block: 20px;
+    box-shadow: 7px 7px 10px #4B4B4B;
+    height: auto;
+    color: white;
+}
+
+.liste-musiques>div>p {
+    font-size: 1.2em;
+    padding-top: 5px;
+}
+
+.resultForm>div>p {
+    font-size: 1.2em;
+    padding-top: 5px;
+}
+
+img {
+    float: left;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.playAndPause {
+    width: 50px;
+    border-radius: 5px;
+    border: solid 2px black;
+    color: red;
+    height: 30px;
+    font-size: 1em;
+}
+
+.lien {
+    font-family: Audiowide, serif;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: rgba(255, 0, 0, 0.8);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.resultForm {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+
+.userForm {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    margin-block: 20px;
+    box-shadow: 7px 7px 10px #4B4B4B;
+    height: auto;
+    color: white;
+}
+
+.asterisk {
+    font-size: 1.2em;
+}
+
+label>span, .asterisk>span {
+    color: red;
+}
+
+form label, form input {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.credit {
+    width: 400px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.credit-musiques section {
+    display: flex;
+}
+
+.credit-musiques div{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    margin-block: 20px;
+    box-shadow: 7px 7px 10px #4B4B4B;
+    height: auto;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.up {
+    float: right;
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.mentionsLegales {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 1em;
+    float: left;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.hideM {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hideM p {
+    font-size: 1em;
+}
+
+.copyright {
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: auto;
+    width: 370px;
+    font-family: Audiowide, serif;
+    margin-bottom: 0px;
+}
